@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Búsqueda Similar a Google</title>
+    <!-- Incluimos los archivos CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Centramos verticalmente la barra de búsqueda */
+        .search-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ajusta la altura al 100% de la ventana */
+        }
+    </style>
+</head>
+<body>
+    <div class="container search-container">
+        <!-- Barra de búsqueda similar a Google -->
+        <div class="input-group">
+            <input type="text" id="texto" class="form-control" placeholder="Busca tu Pokemón">
+            <span class="input-group-btn">
+                <button class="btn btn-default" id="buscar" type="button">Buscar</button>
+            </span>
+        </div>
+    </div>
+     <div class ="row">
+        <div class="imagen">
+
+        </div>
+
+    </div>
+
+    <!-- Incluimos los archivos JS de Bootstrap y cualquier otro script necesario -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Agrega aquí tu propio script para la funcionalidad de búsqueda -->
+</body>
+</html>
